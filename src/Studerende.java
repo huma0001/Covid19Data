@@ -17,10 +17,7 @@ public class Studerende {
     }
 
 
-    public static void main(String[] args) {
-
-        Studerende peter = new Studerende("Nigel", "204042522");
-
-        // System.out.println(peter);
+    public String toString(){
+        return "Student name: " + name + "\n Student ID: " + studieId + "\n";
     }
 }

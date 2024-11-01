@@ -5,8 +5,16 @@ public class Studiegruppe {
 
 
 
+    public void addStudentToGroup(Studerende studerende) throws ForMangeStuderendeException {
+        if (studieGruppe.size() < 4) {
+            studieGruppe.add(studerende);
+        } else {
+            throw new ForMangeStuderendeException("Only 4 students are allowed in a student group");
+        }
+    }
 
-    public void addStudentToGroup(Studerende studerende){
-        studieGruppe.add(studerende);
+
+    public String toString(){
+        return studieGruppe + "";
     }
 }
