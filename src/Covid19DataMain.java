@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Main {
+public class Covid19DataMain {
 
     public static void main(String[] args) {
         FileHandler fh = new FileHandler();
