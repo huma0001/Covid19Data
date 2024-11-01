@@ -18,6 +18,6 @@ public class Studerende {
 
 
     public String toString(){
-        return "Student name: " + name + "\n Student ID: " + studieId + "\n";
+        return "\nStudent name: " + name + "\n Student ID: " + studieId + "\n";
     }
 }
